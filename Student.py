@@ -27,10 +27,12 @@ jay_pike.print_student_data()
 jane_doe.print_student_data()
 Waldo_Wildcat.print_student_data()
 
-jay_pike.change_grade= ("Junior")
-jane_doe.change_grade= ("Graduated")
-Waldo_Wildcat.change_grade= ("Freshman")
+jay_pike.change_grade("Junior")
+jane_doe.change_grade("Graduated")
+Waldo_Wildcat.change_grade("Freshman")
 
 jay_pike.print_student_data()
 jane_doe.print_student_data()
 Waldo_Wildcat.print_student_data()
+
+#Created the OOP Branch
