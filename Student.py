@@ -29,7 +29,8 @@ class Student:
                f"\tGrade: {self.grade}\n",
                f"\tEmail: {self.email}\n",
                f"\tSchool Name: {Student.school_name}\n",
-               f"\tID: {self.student_id}")
+               f"\tID: {self.student_id}\n")
+
    
     def change_grade(self, new_grade_level):
         self.grade = new_grade_level

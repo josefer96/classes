@@ -9,5 +9,5 @@ class Graduate_Student(Student):
         self.degree_program = degree_program
         
     def print_student_data(self):
-        super().print_student_data()
-        print(f"\tDegree Program: {self.degree_program}")
+        super().print_studen_data()
+        print(f"\tDegree programe: {self.degree_program}")
